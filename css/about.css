@@ -119,6 +119,16 @@ h2{
     border-bottom:dotted 1px black;
 
 }
+@keyframes button {
+    from {background-color: white; color:black;}
+    to {background-color: black; color:white;}
+  }
+
+.group1 p:hover{
+    animation-name: button;
+animation-duration:1s;
+}
+
 .group1 p{
 text-align:center;
 padding:10px 25px 10px 25px;
@@ -128,6 +138,7 @@ width:35%;
 border:2px solid black;
 border-radius: 5px;
 font-size:14px;
+
 }
 
 .bottom{
